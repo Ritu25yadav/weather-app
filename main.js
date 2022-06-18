@@ -16,8 +16,6 @@ form.addEventListener("submit" ,  weatherfunc);
     
     let error = data.success
 
-
-
     if(error === false){
         window.alert("Enter correct City")
     }else{
@@ -50,6 +48,6 @@ form.addEventListener("submit" ,  weatherfunc);
     form.reset();
 
 
-   // console.log(data);
+   console.log(data);
 
 }
